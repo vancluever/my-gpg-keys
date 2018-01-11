@@ -9,7 +9,7 @@ You can save these to a file on your local drive and import them with `gpg
 
 Fingerprint: `CFED9BDD618AFC92C28A3CDA335B84AFEC615CE4`
 
-I use this to sign personal commits and personal I make.
+I use this to sign personal commits and personal builds I make.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
