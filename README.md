@@ -1,79 +1,29 @@
-# My GPG keys
+# My GPG Keys
 
-Below you will find my GPG keys.
+This page contains information about my GPG keys.
 
-You can save these to a file on your local drive and import them with `gpg
---import` to verify files or commits that I have signed.
+## Checking Keys and Download
 
-## Main signing key
+You can check my up-to-date keys at https://api.github.com/users/vancluever/gpg_keys.
 
-Fingerprint: `CFED9BDD618AFC92C28A3CDA335B84AFEC615CE4`
-
-I use this to sign personal commits and builds.
+To fetch just the key you can use `curl` and `jq`:
 
 ```
------BEGIN PGP PUBLIC KEY BLOCK-----
+curl -s https://api.github.com/users/vancluever/gpg_keys | jq -r .[0].raw_key
+```
 
-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
-xEJW+KrY6fU=
-=ehPL
------END PGP PUBLIC KEY BLOCK-----
+## Current Keys
+
+```
+$ curl -s https://api.github.com/users/vancluever/gpg_keys | jq -r .[0].raw_key  | gpg -v 2>/dev/null
+pub   rsa4096/21DA69C2D14BFAA8 2017-07-24 [SC] [expires: 2024-06-24]
+      Key fingerprint = 245C DB0E 5171 60F3 EBC5  6923 21DA 69C2 D14B FAA8
+uid                           Chris Marchesi <chrism@vancluevertech.com>
+sig        21DA69C2D14BFAA8 2019-06-26   [selfsig]
+sub   rsa4096/8D6F1589D9834498 2017-10-16 [S] [expires: 2024-06-24]
+sig        21DA69C2D14BFAA8 2019-06-26   [keybind]
+sub   rsa4096/34A2AF5F60B91FA1 2017-07-24 [E] [expires: 2024-06-24]
+sig        21DA69C2D14BFAA8 2019-06-26   [keybind]
+sub   rsa4096/335B84AFEC615CE4 2017-07-25 [S] [expires: 2024-06-24]
+sig        21DA69C2D14BFAA8 2019-06-26   [keybind]
 ```
